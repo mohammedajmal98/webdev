@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Details</title>
+</head>
+
+<body>
+    <form action="mailto:abc@gmail.com" method="post" enctype="text/plain"> 
+        <!-- encode type is useful for getting plain text responses when submit forms (remove &%20 etc.,) & 
+        If we put "index.html" in "action", it will redirect you to that index page, when submitting-->
+        <label>Your Name:</label>
+        <input type="text" name="Visitor's Name" value="Jack"><br>
+        <label>Email:</label>
+        <input type="email" name="Visitor's Email" value="aaabbb@gmail.com"><br>
+        <label>Your Message:</label><br>
+        <textarea name="Visitor's Note" id="" cols="30" rows="5"></textarea><br>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>
